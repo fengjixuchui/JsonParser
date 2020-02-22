@@ -47,7 +47,7 @@ namespace JsonParserProgram
     {
         static void Main()
         {
-            Person person = new Person(1, "Alexander", "Bruun", new School(72, "Zealand"));
+            Person person = new Person(1, "alx", "brn", new School(72, "Alien School"));
             string json = person.Parse();
 
             Console.WriteLine(json);
