@@ -39,7 +39,7 @@ namespace JsonParserProgram
 
         public override string ToString()
         {
-            return $"{{Id: {Id}, Firstname: {Firstname}, Lastname: {Lastname}, School: {{{School}}}}}";
+            return $"Id: {Id}, Firstname: {Firstname}, Lastname: {Lastname}, School: {School}";
         }
     }
 
